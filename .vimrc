@@ -10,8 +10,8 @@ set title " タイトルを表示
 set showmatch " 対応括弧を表示
 
 "タブ、空白、改行の可視化
-set list
-set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+"set list
+"set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
 
 "全角スペースをハイライト表示
 function! ZenkakuSpace()
