@@ -8,6 +8,8 @@ set smartindent " 改行時に入力された行の末尾に合わせて次の�
 set number "行番号を表示する
 set title " タイトルを表示
 set showmatch " 対応括弧を表示
+set laststatus=2 " 常にステータスラインを表示
+set t_Co=254 " 256色対応？
 
 "タブ、空白、改行の可視化
 "set list
@@ -52,6 +54,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'vim-ruby/vim-ruby'
   NeoBundle 'tpope/vim-cucumber'
   NeoBundle 'thinca/vim-quickrun'
+  NeoBundle 'derekwyatt/vim-scala'
+  NeoBundle 'alpaca-tc/alpaca_powertabline'
+  NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
+  NeoBundle 'Lokaltog/powerline-fontpatcher'
   
   NeoBundle 'Shougo/vimproc', {
         \ 'build' : {
