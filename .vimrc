@@ -10,6 +10,7 @@ set title " タイトルを表示
 set showmatch " 対応括弧を表示
 set laststatus=2 " 常にステータスラインを表示
 set t_Co=254 " 256色対応？
+set mouse=vic "Enable mouse
 
 "タブ、空白、改行の可視化
 "set list
