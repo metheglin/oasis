@@ -23,6 +23,14 @@ chsh -s /bin/zsh
 gpasswd -a metheglin wheel
 ```
 
+# ssh-agent
+
+```
+ssh-add
+ssh-add -l
+  # check the key registered
+```
+
 # NeoBundle
 
 ```
